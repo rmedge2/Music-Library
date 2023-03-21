@@ -6,5 +6,8 @@ export default class Playlist {
     addSong(song) {
         this.songs.push(song);
     }
+
+    // removeSong(song){
+    // }
 }
 
