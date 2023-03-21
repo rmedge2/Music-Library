@@ -4,6 +4,6 @@ export default class Song {
         this.artist = artist;
         this.album = album;
         this.genre = genre;
-        this.runTimeInSeconds = runTimeInSeconds;
+        this.runTimeInSeconds = `${Math.floor(runTimeInSeconds / 60)}:${runTimeInSeconds % 60}`; // takes time in seconds and displays minutes and seconds
     }
 }
