@@ -14,6 +14,12 @@ export default class User {
         const index = this.songLibrary.indexOf(song)
         if(index > -1){
             this.songLibrary.splice(index, 1)
+            
+            // now search through each playlist
+            // ensuring the song is automatically removed from the playlists
+            this.playlists.forEach(function (element) {
+                element.removeFromPlaylist(song)
+            })
         }
         
     }
