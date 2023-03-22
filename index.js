@@ -57,7 +57,7 @@ console.log(`If executed correctly, the song should now be added back to the pla
 console.log(Stevie)
 
 // Demonstrating Library removal
-console.log(`\n We will now demonstrate what happens if I instead remove the same song fromy LIBRARY that's displayed below:`)
+console.log(`\n We will now demonstrate what happens if I instead remove the same song from my LIBRARY shown below:`)
 console.log(BigRod.songLibrary)
 BigRod.removeSongFromLibrary(sirDuke)
 console.log(`If my code has executed correctly thus far, we will now see below that \n
